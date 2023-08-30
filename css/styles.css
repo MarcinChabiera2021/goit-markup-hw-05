@@ -132,7 +132,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--pressed-state-ocean-color);
+  background-color: var(--primary-brand-iris-color);
   fill: var(--white-background-header-color);
   width: 40px;
   height: 40px;
@@ -292,6 +292,10 @@ img {
               box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
               0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
             }
+            .team-card .social-list-icon:hover,
+            .team-card .social-list-icon:focus {
+              background-color: var(--pressed-state-ocean-color);
+            }
 
             /* Our customers */
       
@@ -374,6 +378,7 @@ img {
       }
       
       .card-text{
+        
         padding: 32px 16px;
         /* margin: 32px 0; */
         border-right: 1px solid var(--accent-cornflower-color);
@@ -382,6 +387,9 @@ img {
       }
       .portfolio-list-item .header-medium-card-font{
         margin-bottom: 8px;
+       }
+       .portfolio-list-item{
+        cursor: pointer;
        }
        .portfolio-list-item:hover{
         box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
